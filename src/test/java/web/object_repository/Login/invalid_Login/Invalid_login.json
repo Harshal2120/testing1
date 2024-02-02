@@ -1,0 +1,255 @@
+{
+  "Email":{
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@id='email']"
+  },
+
+  "password": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "text_box",
+    "platform": "web",
+    "web_locator": "//input[@id='pass']"
+  },
+
+  "login button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@name='login']"
+  },
+
+  "button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//div[@class='_9ay7']"
+  },
+
+  "Forgot password text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[text()='Forgotten password?']"
+  },
+
+  "Forgot password link": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//input[@id='identify_email']"
+  },
+
+  "Facebook logo": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//img[contains(@alt, 'Facebook')]"
+  },
+
+  "Facebook page text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//h2[contains(text(), 'Facebook helps you connect and share with the people in your life.')]"
+  },
+
+  "Create a page hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(text(), 'Create a Page')]"
+  },
+
+  "Create a page hyperlink": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@href, 'pages/create/?ref_type=registration_form')]"
+  },
+
+  "Create a page hyperlink login button": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//button[@id='loginbutton']"
+  },
+
+  "Create new account text": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "(//a[@role=\"button\"])[2]"
+  },
+
+  "Create new account": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[@ajaxify='/reg/spotlight/']"
+  },
+
+  "Gujarati hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Gujarati')]"
+  },
+
+  "Marathi hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Marathi')]"
+  },
+
+  "valid Email_invalid_password": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//*[contains(text(),'entered is incorrect')]"
+  },
+
+  "Urdu hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Urdu')]"
+  },
+
+"Punjabi hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Punjabi')]"
+  },
+
+"Tamil hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Tamil')]"
+  },
+
+"Telugu hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Telugu')]"
+  },
+
+"Bengali hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Bengali')]"
+  },
+
+"Malayalam hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Malayalam')]"
+  },
+
+  "Spanish hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Spanish')]"
+  },
+
+ "Sign up hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Sign up for Facebook')]"
+  },
+
+  "Log in hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Log in to Facebook')]"
+  },
+
+  "Messenger hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Take a look at Messenger.')]"
+  },
+
+  "Facebook lite hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Facebook Lite for Android.')]"
+  },
+
+  "Video hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Browse in Video')]"
+  },
+
+  "Places hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Take a look at popular places on Facebook.')]"
+  },
+
+  "Games hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": "//a[contains(@title, 'Check out Facebook games.')]"
+  },
+
+  "Marketplace hypertext": {
+    "objectGenerate": "generate",
+    "locator_type": "xpath",
+    "element_type": "button",
+    "platform": "web",
+    "web_locator": " //a[contains(@title, 'Buy and sell on Facebook Marketplace.')]"
+  }
+
+
+
+
+
+}
+

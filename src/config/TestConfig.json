@@ -1,0 +1,21 @@
+{
+  "run": "samhita_onboading_uat",
+  "config": {
+    "samhita_onboading_uat": {
+      "platform": "web",
+      "browser": "Chrome",
+      "capabilities": {
+        "browserName": "Chrome",
+        "browserVersion": "latest",
+        "projectName": "Samhita Web Test"
+      },
+      "env": "http://www.facebook.com",
+      "isGrid": false,
+      "gridPlatform": "local",
+      "testNGsuite": [
+        "smoke.xml"
+      ],
+      "tesboReportKey" : "aR6Dz1zie0UwYIxh0IsL9dU47q71Dagw"
+    }
+  }
+}

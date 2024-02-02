@@ -1,0 +1,556 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "Smoke " parallel="tests" thread-count="2">
+    <!-- 1 -->
+    <test name = "enter_email">
+        <classes>
+            <class name = "web.tests.login.LoginPageTest" >
+                <methods>
+                    <include name="enter_email"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 2 -->
+    <test name = "verify_valid_message_is_present_when_only_clicks_on_logins_button">
+        <classes>
+            <class name ="web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_valid_message_is_present_when_only_clicks_on_logins_button"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 3 -->
+    <test name = "verify_valid_message_is_present_when_entering_invalid_email_id">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_valid_message_is_present_when_entering_invalid_email_id"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 4 -->
+    <test name = "verify_valid_message_is_present_when_entering_invalid_password">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_valid_message_is_present_when_entering_invalid_password"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 5 -->
+    <test name = "verify_forgotten_password_text_is_present">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_forgotten_password_text_is_present"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 6 -->
+    <test name = "verify_forgotten_password_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_forgotten_password_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 7 -->
+    <test name = "verify_facebook_logo_is_present">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_facebook_logo_is_present"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 8 -->
+    <test name = "verify_facebook_page_text_is_present">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_facebook_page_text_is_present"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 9 -->
+    <test name = "verify_create_a_page_hypertext_is_present">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_create_a_page_hypertext_is_present"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 10 -->
+    <test name = "verify_create_a_page_hyperlink_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_create_a_page_hyperlink_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 11 -->
+    <test name = "verify_create_new_account_text_is_visible">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_create_new_account_text_is_visible"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 12 -->
+    <test name = "verify_create_new_account_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_create_new_account_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 13 -->
+    <test name = "verify_gujarati_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_gujarati_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 14 -->
+    <test name = "verify_gujarati_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_gujarati_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 15 -->
+    <test name = "verify_marathi_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_marathi_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 16 -->
+    <test name = "verify_marathi_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_marathi_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 17 -->
+    <test name = "verify_valid_email_id_and_invalid_password">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_valid_email_id_and_invalid_password"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 18 -->
+    <test name = "verify_invalid_email_id_and_valid_password">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_invalid_email_id_and_valid_password"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 19 -->
+    <test name = "verify_invalid_email_id_with_numbers">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_invalid_email_id_with_numbers"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 20 -->
+    <test name = "verify_invalid_password_with_numbers">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_invalid_password_with_numbers"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 21 -->
+    <test name = "verify_urdu_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_urdu_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 22 -->
+    <test name = "verify_urdu_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_urdu_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 23 -->
+    <test name = "verify_punjabi_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_punjabi_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 24 -->
+    <test name = "verify_punjabi_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_punjabi_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 25 -->
+    <test name = "verify_tamil_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_tamil_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 26 -->
+    <test name = "verify_tamil_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_tamil_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 27 -->
+    <test name = "verify_telugu_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_telugu_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 28 -->
+    <test name = "verify_telugu_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_telugu_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+ <!-- 29 -->
+    <test name = "verify_bengali_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_bengali_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 30 -->
+    <test name = "verify_bengali_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_bengali_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+
+ <!-- 31 -->
+    <test name = "verify_malayalam_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_malayalam_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 32 -->
+    <test name = "verify_malayalam_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_malayalam_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 33 -->
+    <test name = "verify_spanish_language_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_spanish_language_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 34 -->
+    <test name = "verify_spanish_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_spanish_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 35 -->
+    <test name = "verify_sign_up_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_sign_up_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 36 -->
+    <test name = "verify_sign_up_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_sign_up_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 37 -->
+    <test name = "verify_log_in_hypertext_text_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_log_in_hypertext_text_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 38 -->
+    <test name = "verify_log_in_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_log_in_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <!-- 39 -->
+    <test name = "verify_Messenger_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_Messenger_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 40 -->
+    <test name = "verify_Messenger_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_Messenger_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 41 -->
+    <test name = "verify_facebook_lite_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_facebook_lite_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 42 -->
+    <test name = "verify_facebook_lite_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_facebook_lite_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!-- 43 -->
+    <test name = "verify_video_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_video_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 44 -->
+    <test name = "verify_video_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_video_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!-- 45 -->
+    <test name = "verify_places_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_places_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 46 -->
+    <test name = "verify_places_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_places_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!-- 47 -->
+    <test name = "verify_games_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_games_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 48 -->
+    <test name = "verify_games_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_games_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+<!-- 49 -->
+    <test name = "verify_marketplace_hypertext_is_present_on_page">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_marketplace_hypertext_is_present_on_page"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+ <!-- 50 -->
+    <test name = "verify_marketplace_hypertext_link_is_working">
+        <classes>
+            <class name = "web.tests.login.Invalid_Login_Test" >
+                <methods>
+                    <include name="verify_marketplace_hypertext_link_is_working"> </include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>
